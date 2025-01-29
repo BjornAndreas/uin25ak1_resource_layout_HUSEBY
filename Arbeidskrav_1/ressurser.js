@@ -113,8 +113,8 @@ resources.map((resource, index) => {
 //her så setter vi innholdet i navfaner til resourceHTML
 navfaner.innerHTML = resourcesHTML;
 
-// https://chatgpt.com/share/679a5c60-7d2c-8009-8c6f-beedf2dbecbe
-// Her så har jeg spurt chatgpt om hvordan man får fjernet "," som vises etter vær av linkene når jeg har brukt .map (jeg har også brukt .join lengre nede i htmlResource.sources.map)
+//https://chatgpt.com/share/679a5c60-7d2c-8009-8c6f-beedf2dbecbe
+//Her så har jeg spurt chatgpt om hvordan man får fjernet "," som vises etter vær av linkene når jeg har brukt .map (jeg har også brukt .join lengre nede i htmlResource.sources.map)
 //om jeg har forstått riktig så gjør .join slikt at den henter ut linkene i sources og at den da fjerner "," som blir vist når jeg ikke har .join
 //her så har vi en funksjon som oppdaterer innholdet i tabbene ettersom hvilken tab som er valgt
 function updateFaner(index) {
